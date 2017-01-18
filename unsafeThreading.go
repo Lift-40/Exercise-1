@@ -6,7 +6,7 @@ import (
     "time"
 )
 
-var notZero uint32
+var notZero int32
 
 func thread1() {
 	for i := 0; i < 1000000; i++ {
