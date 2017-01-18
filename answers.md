@@ -11,15 +11,15 @@
  - Harder, mostly.
 - What are the differences between processes, threads, green threads, and coroutines?
  - Processes
-  - A single program, which may be assigned to one (or multiple) threads.
+     - A single program, which may be assigned to one (or multiple) threads.
  - Threads
-  - A thread is a single processor, essentially
-  - Scheduled natively, i.e. by the host operating system
+     - A thread is a single processor, essentially
+     - Scheduled natively, i.e. by the host operating system
  - Green threads
-  - Scheduled by a VM
+     - Scheduled by a VM
  - Coroutines
-  - These are subroutines with multiple entry/exit points for flow control, unlike for example traditional functions which has a single entry point and multiple exit points.
-  - They are not concurrent, as control is passed between subroutines without more than one ever running at once.
+     - These are subroutines with multiple entry/exit points for flow control, unlike for example traditional functions which has a single entry point and multiple exit points.
+     - They are not concurrent, as control is passed between subroutines without more than one ever running at once.
 - Which one of these do pthread_create() (C/POSIX), threading.Thread() (Python), go (Go) create?
  - A native thread.
 - How does pythons Global Interpreter Lock (GIL) influence the way a python Thread behaves?
