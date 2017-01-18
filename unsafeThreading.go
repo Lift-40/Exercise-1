@@ -33,4 +33,5 @@ func main() {
     time.Sleep(100*time.Millisecond)
 	Println("Result: ")
     Println(notZero)
+	time.Sleep(10000*time.Millisecond)
 }
